@@ -14,6 +14,30 @@
     "typeRoots": [
       "node_modules/@types"
     ],
+    "paths": {
+      "@app/*": ["app/*"],
+      "@env/*": [
+        "environments/*"
+      ],
+      "@modules/*": [
+        "src/app/modules/*"
+      ],
+      "@shared/*": [
+        "src/app/core/shared/*"
+      ],
+      "@core/*": [
+        "src/app/core/*"
+      ],
+      "@services/*": [
+        "src/app/core/services/*"
+      ],
+      "@guards/*": [
+        "src/app/core/guards/*"
+      ],
+      "@interecptors/*": [
+        "src/app/core/interceptors/*"
+      ]
+    },
     "lib": [
       "es2018",
       "dom"
